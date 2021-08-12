@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.item h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.price {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #df5549;
+  font-size: 1.25rem;
+}
+
+.inStock {
+  color: #5cb85c;
+  background-color: transparent;
+  border: 1px solid currentColor;
+  padding: 0.5rem 1.3rem;
+  border-radius: 8px;
+}
+
+.outStock {
+  color: #d9534f;
+  background-color: transparent;
+  border: 1px solid currentColor;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+}
+
+.info {
+  flex-basis: 70%;
+}
